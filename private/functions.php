@@ -61,13 +61,6 @@ function sendSQL($requeteSQL, $tabAssoColonneValeur)
        $portSQL      = 3306;
      $charsetSQL   = "utf8";
 
-//Mamp
-//   $loginSQL     = "root";
-//     $passwordSQL  = "root";
-//       $databaseSQL  = "perso";
-//       $hostSQL      = "127.0.0.1";
-//       $portSQL      = 8889;
-
 
 
 //Wamp
@@ -77,11 +70,6 @@ function sendSQL($requeteSQL, $tabAssoColonneValeur)
       $hostSQL      = "127.0.0.1";
 */
 
-
-//OVH
-$hostSQL      = "xaviervimjpers0.mysql.db";
-$loginSQL     = "xaviervimjpers0";
-$passwordSQL  = "Soleil13";
 $databaseSQL  = "xaviervimjpers0";
 
 
