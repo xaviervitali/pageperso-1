@@ -1,0 +1,85 @@
+@media screen and (max-width: 1000px) {
+
+  
+    header {
+    height: 100px;
+    display: block;
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+  header nav ul {
+    display: none;
+  }
+
+  header section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  main * {
+    font-size: 2rem;
+  }
+
+  main{
+      width: 100%;
+  }
+
+  .skills h3 {
+    display: block;
+  }
+
+  .skills {
+    padding: auto;
+  }
+
+  .category .skills {
+    width: 100%;
+  }
+  .container {
+    display: none;
+  }
+
+  .skills article {
+    width: 100%;
+  }
+
+  .portfolio figure {
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+
+  .portfolio i {
+      display: block;
+    position: absolute;
+    top: 40%;
+    padding: 20px;
+    font-size: 4rem; 
+    z-index: 2;
+  }
+  .nextWork {
+    right: 30px;
+  }
+
+  .previousWork {
+    left: -50px;
+  }
+  .portfolio figure {
+      width: 100%;
+  }
+
+  .portfolio{
+      padding: 10px;
+  }
+  .overlay {
+      width: 95%;
+      margin: auto; 
+      left: -40px;
+      
+  }
+
+  .category{
+      margin: 0;
+  }
+}

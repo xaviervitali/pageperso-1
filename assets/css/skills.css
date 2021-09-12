@@ -1,0 +1,40 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url("../img/skills.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0 0 1px black;
+}
+
+.skills article{
+  width: 43%;
+} 
+
+.skillContent i {
+  color: gold;
+  text-shadow: 0 0 1px black;
+  transition: 1s;
+  
+}
+.skillContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.skills h3{
+  display: block;
+  text-align: center;
+  padding:  20px 0;
+}
+
+.skillContent:nth-child(2n){
+ background-color: lightgray;
+ border-radius: 10px;
+}

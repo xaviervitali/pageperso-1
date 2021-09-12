@@ -1,0 +1,70 @@
+header {
+  margin-bottom: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: 1px black solid;
+  padding: 20px;
+  background-image: url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+  overflow: hidden;
+  font-weight: bold;
+  max-width: 1920px;
+  height: 100%;
+  text-shadow: 0 0 5px rgb(237, 224, 224);
+  font-size: 1.5rem;   
+  top: 0;
+
+}
+
+
+.minHeigth {
+  height: 100px;
+  font-size: 1rem;   
+  text-shadow: 0 0 2px white;
+  opacity: .8;
+  transition: all 1s ease;
+  /* filter: blur(5px); */
+}
+.maxHeigth {
+  height: 100%;
+  transition: all 1s ease;
+}
+header section {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  list-style: none;
+}
+header h1 {
+  margin: 30px 10px;
+}
+header li {
+  padding: 10px;
+}
+header a {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: black;
+  padding: 5px;
+}
+
+header a:hover {
+  border-bottom: 2px solid red;
+  color: white;
+  transition: 0.2s;
+}

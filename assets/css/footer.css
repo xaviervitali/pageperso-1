@@ -1,0 +1,34 @@
+
+  footer{
+ background: url("../img/bg.jpg");
+background-attachment: scroll;
+    position: fixed;
+    bottom: 0;
+    padding: 50px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 50px;
+    color: white;
+
+height: 10px;
+overflow-y: scroll;
+
+  }
+
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+
+  footer form div img{
+    max-width: 100px;
+    border-radius: 59% 41% 87% 13% / 63% 30% 70% 37% ;
+  }
+
+  footer form div{
+    display: flex;
+    flex-direction: column;
+  }
+  footer:hover{
+    height: 80%;
+  }

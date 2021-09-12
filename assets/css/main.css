@@ -1,0 +1,99 @@
+* {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 1rem; */
+  background-repeat: no-repeat;
+}
+
+html {
+  background-image: var(--bodyBackground);
+  background-attachment: fixed;
+}
+
+body{
+  background-color: goldenrod;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+main {
+  width: 90%;
+  /* max-width: 1500px; */
+  margin: 200px auto;
+  /* top: 100px; */
+  position: relative;
+  /* color: #FFF; */
+
+}
+
+main article {
+  margin: 50px 3%;
+}
+
+main article p {
+  margin-left: 3%;
+}
+main li {
+  margin-left: 3%;
+  list-style: none;
+  line-height: 1.2;
+}
+
+.category {
+  margin: 50px;
+  padding: 50px;
+  position: inherit;
+  animation: bounceIn animated;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.about{
+  background-image: url("../img/about.jpg");
+
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 1px black;
+  /* background-attachment: ; */
+}
+.category>h3{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+
+
+.back-to-top {
+  position: fixed;
+  right: 3%;
+  bottom: 15%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: .5s;
+  border-radius: 50%;
+  color: black;
+  font-size: 1rem;
+  /* display: none; */
+}
+
+.back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+  color: white;
+  transition: .5s;
+}
+
+#pourcentage{
+  /* color: red; */
+  margin: 5%;
+  /* padding: 50px; */
+}
+
+
+
+.entete {
+
+  margin: 50px 0;
+}

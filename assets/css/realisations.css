@@ -1,0 +1,70 @@
+.portfolio {
+  background-image: url("../img/portfolio.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 1px black;
+  padding: auto;
+  /* max-width: 80%; */
+}
+.portfolio a {
+  color: white;
+}
+
+.portfolio i {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.portfolio i:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+  color: white;
+  transition: 0.5s;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.overlay {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  margin: 20px;
+  height: 400px;
+}
+
+figcaption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  color: white;
+  text-shadow: 0 0 2px black;
+  /* padding: 10%; */
+  display: grid;
+  text-align: center;
+}
+
+figcaption:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+.portfolio figure {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}

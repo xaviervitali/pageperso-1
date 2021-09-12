@@ -1,0 +1,79 @@
+header {
+  position: fixed;
+  /* max-width: 1000px; */
+  width: 80%;
+  font-size: 1.5rem;
+  height: 100%;
+  max-width: 1500px;
+  top: 50px;
+  left: 50%; /* on positionne l'élément à la moitié de l'écran */
+  margin-left: -40%;
+  color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+header nav li {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+header li.active {
+  border-bottom: 0.25rem solid #c94c50;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+  /* margin-bottom: 40px; */
+  /* border-bottom: 1px solid #e1dff5; */
+}
+
+header section {
+  padding: 5px;
+  padding-left: 1rem;
+  background-color: var(--headerSection);
+  /* border-radius: 20px 20px 0 0 ; */
+  text-align: center;
+  overflow: hidden;
+  z-index: 10;
+}
+header .nom {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  /* margin-bottom: 2px; */
+}
+
+header {
+}
+header nav {
+  background-color: var(--headerNav);
+  /*  */
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 1980px) {
+  header {
+    position: static;
+    margin: auto;
+  }
+}
